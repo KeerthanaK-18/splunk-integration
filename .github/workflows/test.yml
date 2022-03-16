@@ -1,6 +1,6 @@
 name: Run Python Unittest tests
 
-on: [push, workflow_dispatch]
+on: 
     pull_request:
         types: [opened, edited]
 
